@@ -1,11 +1,17 @@
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 body{  
-    text-align: center; /* Faço o alinhamento total dos textos */
-    background-color: #363636 ;
+    text-align: center;
+    background-color:mistyrose ;
 }
 header{
     display: block;
-    background-color: #148527 ; /* Faço o básico para a parte de navegação*/
+    background-color: #fdd8f4;
     padding: 20px;
+    font-family: 'Poppins', 'Arial Narrow', sans-serif;
 }
 ul{
     margin: 5px;
@@ -24,9 +30,9 @@ a{
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
-    color: rgb(179, 255, 156);
+    color: rgb(0, 0, 0);
 }
-li a:hover{  /*E deixo bonito ao estar com o mouse em cima*/
+li a:hover{
     background-color: #505050;
     border-radius: 10px;
     padding: 5px;
@@ -34,40 +40,23 @@ li a:hover{  /*E deixo bonito ao estar com o mouse em cima*/
     color:rgb(255, 255, 255)
 
 }
-img{  /* Ajusto as imagens, e posteriormente uma emagem especica*/ 
-    border-radius: 300px;
+main{
+    color: rgb(43, 18, 41);
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    padding: 50px;
 }
-main { /*Faço a parte pros textos ficarem centralizados e os titúlos serem brancos por herança*/
-      color: rgb(255, 255, 255);
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: medium;
-      padding: 50px;
+.texto{
+    color: rgb(43, 18, 41);
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
 }
-form{ /*Configurações basicas pra form*/
+#CliqueAqui{
     padding: 10px;
-    margin: 10px;
+    background-color:ghostwhite;
+}
+#CliqueAqui:hover{
+    padding: 10px;
+    background-color:#d8adda;
     color: rgb(255, 255, 255);
-}
-.texto{  /*Maior parte é texto que entra aqui, e eu deicidi colocar uma cor que lembre o back-end e as coisas básicas*/
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    color: rgb(32, 255, 32);
-    font-size:17px;
-    padding: 60px;
-}
-#Git{ /* Id para configurar o botão que irá redirecionar a gente po que trabalhei até o momento*/
-    background-color: #385f57;
-    color: #00ff2a;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 300px;
-}
-#Git:hover{
-    background-color: rgb(0, 0, 0);
-    color: #00ff00;
-}
-.texto2{
-    color: #00ff00;
-    padding: 0;
 }
