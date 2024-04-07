@@ -2,8 +2,18 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
+}
+ *{
+    box-sizing: border-box;
+    font-family:'Poppins', 'Arial Narrow', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+main{
+    margin: 20px;
+}
 body{  
+    width: 100%;
     text-align: center;
     background-color:rgb(255, 228, 225) ;
 }
@@ -11,7 +21,7 @@ header{
     display: block;
     background-color: #fdd8f4;
     padding: 20px;
-    font-family: 'Poppins', 'Arial Narrow', sans-serif;
+
 }
 ul{
     margin: 5px;
@@ -40,11 +50,23 @@ li a:hover{
     color:rgb(255, 255, 255)
 
 }
-main{
-    color: rgb(43, 18, 41);
-    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
-    font-size:larger;
+.item img{
+    height: 300px;
+    width: 300px;
+}
+.item{
+    box-shadow: #2e2d2d;
+}
+.MainConteiner{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+.texto{
     padding: 50px;
+}
+#body2{
+    background-color:rgb(255, 255, 255);
 }
 #CliqueAqui{
     padding: 10px;
